@@ -25,7 +25,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/golden-key-residences">
           <Routes>
             <Route element={<Layout />}>
               <Route path="/" element={<HomePage />} />
